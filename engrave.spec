@@ -12,7 +12,9 @@ Source0:	http://sparky.homelinux.org/snaps/enli/e17/libs/%{name}-%{_snap}.tar.bz
 URL:		http://enlightenment.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	bison
 BuildRequires:	ecore-devel
+BuildRequires:	flex
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
