@@ -2,13 +2,13 @@ Summary:	Edje editing library
 Summary(pl):	Biblioteka edycji edje
 Name:		engrave
 Version:	0.1.0
-%define	_snap	20051104
+%define	_snap	20051208
 Release:	0.%{_snap}.0.1
 License:	BSD
 Group:		Libraries
 #Source0:	http://dl.sourceforge.net/enlightenment/%{name}-%{version}.tar.gz
 Source0:	http://sparky.homelinux.org/snaps/enli/e17/libs/%{name}-%{_snap}.tar.bz2
-# Source0-md5:	bef0917c80af9c182994994adf8b48a7
+# Source0-md5:	51f06d7e48ee5b4875dcc82dfe86d9b2
 URL:		http://enlightenment.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
