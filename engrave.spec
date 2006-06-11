@@ -26,7 +26,7 @@ Engrave to biblioteka edycji edje.
 %package devel
 Summary:	Header files for engrave library
 Summary(pl):	Pliki nag³ówkowe biblioteki engrave
-Group:		Developement/Libraries
+Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
@@ -38,7 +38,7 @@ Pliki nag³ówkowe biblioteki engrave.
 %package static
 Summary:	Engrave static library
 Summary(pl):	Statyczna biblioteka engrave
-Group:		Developement/Libraries
+Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
