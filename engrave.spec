@@ -1,5 +1,5 @@
 Summary:	Edje editing library
-Summary(pl):	Biblioteka edycji edje
+Summary(pl.UTF-8):   Biblioteka edycji edje
 Name:		engrave
 Version:	0.1.0
 %define	_snap	20060307
@@ -20,31 +20,31 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Engrave is an edje editing library.
 
-%description -l pl
+%description -l pl.UTF-8
 Engrave to biblioteka edycji edje.
 
 %package devel
 Summary:	Header files for engrave library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki engrave
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki engrave
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for engrave library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe biblioteki engrave.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe biblioteki engrave.
 
 %package static
 Summary:	Engrave static library
-Summary(pl):	Statyczna biblioteka engrave
+Summary(pl.UTF-8):   Statyczna biblioteka engrave
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Engrave static library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka engrave.
 
 %prep
