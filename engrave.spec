@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Biblioteka edycji edje
 Name:		engrave
 Version:	0.1.0
 %define	_snap	20060307
-Release:	0.%{_snap}.3
+Release:	0.%{_snap}.4
 License:	BSD
 Group:		Libraries
 #Source0:	http://dl.sourceforge.net/enlightenment/%{name}-%{version}.tar.gz
